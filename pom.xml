@@ -6,7 +6,7 @@
 
     <groupId>site.persipa</groupId>
     <artifactId>persipa-cloud-dependencies</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
@@ -37,6 +37,7 @@
 
         <spring.cloud.version>2021.0.4</spring.cloud.version>
         <spring.cloud.alibaba.version>2021.0.4.0</spring.cloud.alibaba.version>
+        <dubbo.version>3.1.10</dubbo.version>
         <mybatis.plus.version>3.5.2</mybatis.plus.version>
         <druid.version>1.2.13</druid.version>
         <minio.version>8.4.6</minio.version>
@@ -62,6 +63,11 @@
                 <version>${spring.cloud.alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
