@@ -6,17 +6,17 @@
 
     <groupId>site.persipa</groupId>
     <artifactId>persipa-cloud-dependencies</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
         <repository>
             <id>M6-Releses</id>
-            <url>http://nexus.m6.persipa.site/repository/persipa-releases/</url>
+            <url>https://nexus.m6.persipa.site/repository/persipa-releases/</url>
         </repository>
         <snapshotRepository>
             <id>M6-Snapshot</id>
-            <url>http://nexus.m6.persipa.site/repository/persipa-snapshot/</url>
+            <url>https://nexus.m6.persipa.site/repository/persipa-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -39,6 +39,7 @@
         <spring.cloud.alibaba.version>2021.0.4.0</spring.cloud.alibaba.version>
         <dubbo.version>3.1.10</dubbo.version>
         <mybatis.plus.version>3.5.2</mybatis.plus.version>
+        <dynamic.datasource.version>4.2.0</dynamic.datasource.version>
         <druid.version>1.2.13</druid.version>
         <minio.version>8.4.6</minio.version>
         <easyexcel.version>3.2.0</easyexcel.version>
@@ -92,6 +93,12 @@
                 <artifactId>mybatis-plus-extension</artifactId>
                 <version>${mybatis.plus.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
+                <version>${dynamic.datasource.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>com.alibaba</groupId>
