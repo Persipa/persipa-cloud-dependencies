@@ -6,7 +6,7 @@
 
     <groupId>site.persipa</groupId>
     <artifactId>persipa-cloud-dependencies</artifactId>
-    <version>1.0.4</version>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
@@ -23,30 +23,29 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.11</version>
+        <version>3.0.2</version>
     </parent>
 
     <name>PersipaCloudDependencies</name>
-    <url>https://persipa.site</url>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
 
-        <spring.cloud.version>2021.0.4</spring.cloud.version>
-        <spring.cloud.alibaba.version>2021.0.4.0</spring.cloud.alibaba.version>
-        <dubbo.version>3.1.10</dubbo.version>
-        <mybatis.plus.version>3.5.2</mybatis.plus.version>
+        <spring.cloud.version>2022.0.1</spring.cloud.version>
+        <spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
+        <dubbo.version>3.2.10</dubbo.version>
+        <mybatis.plus.version>3.5.5</mybatis.plus.version>
         <dynamic.datasource.version>4.2.0</dynamic.datasource.version>
-        <druid.version>1.2.13</druid.version>
-        <minio.version>8.4.6</minio.version>
-        <easyexcel.version>3.2.0</easyexcel.version>
+        <druid.version>1.2.20</druid.version>
+        <minio.version>8.5.7</minio.version>
+        <easyexcel.version>3.3.3</easyexcel.version>
         <xxl-job.version>2.3.1</xxl-job.version>
-        <jsoup.version>1.15.3</jsoup.version>
-        <mapstruct.version>1.5.3.Final</mapstruct.version>
-        <hutool.version>5.8.14</hutool.version>
+        <jsoup.version>1.17.3</jsoup.version>
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+        <hutool.version>5.8.24</hutool.version>
     </properties>
 
     <dependencyManagement>
@@ -154,12 +153,12 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.8.1</version>
+                    <version>3.12.1</version>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
-                    <version>3.0.1</version>
+                    <version>3.3.0</version>
                     <executions>
                         <execution>
                             <id>attach-sources</id>
