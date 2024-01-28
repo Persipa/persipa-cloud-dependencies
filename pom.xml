@@ -6,7 +6,7 @@
 
     <groupId>site.persipa</groupId>
     <artifactId>persipa-cloud-dependencies</artifactId>
-    <version>2.0.2</version>
+    <version>2.0.3</version>
     <packaging>pom</packaging>
 
     <distributionManagement>
@@ -43,7 +43,7 @@
         <minio.version>8.5.7</minio.version>
         <easyexcel.version>3.3.3</easyexcel.version>
         <xxl-job.version>2.3.1</xxl-job.version>
-        <jsoup.version>1.17.3</jsoup.version>
+        <jsoup.version>1.17.2</jsoup.version>
         <mapstruct.version>1.5.5.Final</mapstruct.version>
         <hutool.version>5.8.24</hutool.version>
         <mysql.version>8.3.0</mysql.version>
