@@ -11,11 +11,11 @@
 
     <distributionManagement>
         <repository>
-            <id>M6-Releses</id>
+            <id>NUC-Releases</id>
             <url>https://nexus.nuc.persipa.site/repository/persipa-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>M6-Snapshot</id>
+            <id>NUC-Snapshot</id>
             <url>https://nexus.nuc.persipa.site/repository/persipa-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
